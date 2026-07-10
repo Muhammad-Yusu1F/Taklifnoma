@@ -540,12 +540,8 @@ export default function App() {
 
               {/* Bottom Footer Info */}
               <div className="text-center space-y-4 pt-4 border-t border-rose-100/40 w-full">
-                <p className="font-body text-sm text-rose-800/80 italic max-w-xs mx-auto leading-relaxed">
-                  Chiroyli bo'lib tayyorlan, <br />
-                  qolganini o'zim hal qilaman <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline ml-0.5" />
-                </p>
                 <p className="text-[11px] font-bold tracking-wide text-rose-500 flex items-center justify-center gap-1">
-                  <User className="w-3.5 h-3.5 text-rose-500" /> Seni taklif qilyapti — sevimli ering Akmal
+                  <User className="w-3.5 h-3.5 text-rose-500" /> Seni taklif qilyapti — Muhammadyusuf
                 </p>
 
                 <button

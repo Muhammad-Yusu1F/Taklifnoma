@@ -5,16 +5,16 @@ import { Calendar, Clock, MapPin, Film, Copy, Send, Check, Heart } from 'lucide-
 export default function ProposalTicket() {
   const [copied, setCopied] = useState(false);
 
-  // Build the RSVP text message to copy or send to her husband Akmal
+  // Build the RSVP text message to copy or send to Muhammadyusuf
   const buildRSVPText = () => {
-    let text = `Jonim Akmal, uchrashuv taklifingizni mamnuniyat bilan qabul qildim! 🥰💖\n\n`;
+    let text = `Muhammadyusuf, uchrashuv taklifingizni mamnuniyat bilan qabul qildim! 🥰💖\n\n`;
     text += `🎫 CHIPTA MA'LUMOTLARI:\n`;
     text += `📍 Joy: Kinorom 🎬\n`;
     text += `🎬 Film: Romantik 💖\n`;
     text += `📅 Kun: 24-iyul\n`;
-    text += `🕚 Vaqt: 19:00\n`;
+    text += `⌚ Vaqt: 19:00\n`;
     text += `💺 Joyimiz: Sening yoningda ❤️\n\n`;
-    text += `Chiroyli bo'lib tayyorlanib kutaman! Sizni yaxshi ko'raman! 💞💋`;
+    text += `Chiroyli bo'lib tayyorlanib kutaman! 💞💋`;
     return text;
   };
 
