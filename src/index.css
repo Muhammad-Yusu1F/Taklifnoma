@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Be Vietnam Pro", sans-serif;
+  
+  --color-primary-brand: #9b0044;
+  --color-primary-brand-hover: #b30050;
+  --color-romantic-bg: #fff8f8;
+  --color-warm-peach: #fff0f3;
+  --color-soft-rose: #ffe8ee;
+  --color-dark-plum: #28161d;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #fadae4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb1c2;
+}
+
+/* Ticket tear cutout mask effect */
+.ticket-mask {
+  mask-image: radial-gradient(circle at 0 50%, transparent 12px, black 13px),
+              radial-gradient(circle at 100% 50%, transparent 12px, black 13px);
+  mask-composite: intersect;
+  -webkit-mask-image: radial-gradient(circle at 0 50%, transparent 12px, black 13px),
+                      radial-gradient(circle at 100% 50%, transparent 12px, black 13px);
+  -webkit-mask-composite: source-in;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  40% { transform: scale(1.05); }
+  60% { transform: scale(1.15); }
+}
+
+.animate-heartbeat {
+  animation: heartbeat 1.6s infinite ease-in-out;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Nomalum Qiz — Uchrashuv Taklifi",
+  "description": "Sevimli turmush o'rtog'i Akmaldan kutilmagan va interaktiv uchrashuv taklifi o'yini",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
